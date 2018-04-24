@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ModelSettings xmlns:Serlio="http://www.serliosoft.com/modelsettings">
   <Version>2</Version>
-  <PackageId />
-  <ShowDescendants>false</ShowDescendants>
-  <ProjectOpenedTabName>pgIssues</ProjectOpenedTabName>
+  <PackageId>P-52542d19-e73a-446f-bd6f-f7aefffda15c</PackageId>
+  <ShowDescendants>true</ShowDescendants>
+  <ProjectOpenedTabName>pgUseCases</ProjectOpenedTabName>
   <Sorting>
     <UseCaseViewSortColumns>
       <string>Name</string>
@@ -93,7 +93,6 @@
   <FilteredLists />
   <OpenFilters />
   <ExpandedNodes>
-    <string>test</string>
     <string>CaseComplete - Jogo</string>
   </ExpandedNodes>
   <SelectedNode>CaseComplete - Jogo\CaseComplete - Jogo_Context</SelectedNode>

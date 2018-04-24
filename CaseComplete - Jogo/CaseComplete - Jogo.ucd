@@ -15,14 +15,41 @@
     <UniqueID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</UniqueID>
     <Name>CaseComplete - Jogo</Name>
   </Package>
+  <UseCase>
+    <UniqueID>UC-7b9a1aad-bcbd-41ee-8df3-530f4589d3d1</UniqueID>
+    <UserID>UC-1</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>New Use Case</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2018-04-24T03:07:04.2694828-03:00</DateAdded>
+    <DateModified>2018-04-24T09:45:30.444711-03:00</DateModified>
+  </UseCase>
   <Actor>
     <UniqueID>A-77903478-4654-4c1e-b343-ce349d667dc0</UniqueID>
     <UserID>A-1</UserID>
     <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
-    <Name>New Actor</Name>
+    <Name>Jogador</Name>
+    <Description>Jogador para o jogo</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Jogador\cf2\ulnone  para o jogo\cf0\par
+}
+</RichDescription>
     <Sequence>0</Sequence>
+    <Complexity />
     <DateAdded>2018-04-24T02:45:40.6227087-03:00</DateAdded>
-    <DateModified>2018-04-24T02:45:40.6227087-03:00</DateModified>
+    <DateModified>2018-04-24T03:06:54.5340561-03:00</DateModified>
   </Actor>
   <Diagram>
     <UniqueID>D-c70fd3b4-8c5f-4eb9-946f-5062e32925fd</UniqueID>
@@ -32,6 +59,21 @@
     <FileName>CaseComplete - Jogo_Context.ndx</FileName>
     <Type>0</Type>
   </Diagram>
+  <UCActor>
+    <ParentID>UC-7b9a1aad-bcbd-41ee-8df3-530f4589d3d1</ParentID>
+    <ActorID>A-77903478-4654-4c1e-b343-ce349d667dc0</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Goal>
+    <UniqueID>G-4b3d568b-2ce1-49c6-be81-ed576fe90d42</UniqueID>
+    <ParentID>A-77903478-4654-4c1e-b343-ce349d667dc0</ParentID>
+    <Description>Cadastrar no sistema</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Cadastrar no sistema\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
   <ExternalDoc>
     <UniqueID>EX-672b8d7a-4395-4470-bf05-2af6e0dfb81f</UniqueID>
     <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
@@ -39,7 +81,7 @@
   </ExternalDoc>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>1</NextValue>
+    <NextValue>2</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
