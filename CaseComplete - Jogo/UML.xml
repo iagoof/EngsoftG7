@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMI xmi.version="1.1" xmlns:UML="http://www.omg.org/UML">
+  <XMI.header>
+    <XMI.documentation>
+      <XMI.exporter>Serlio Case Complete</XMI.exporter>
+      <XMI.exporterVersion>13.0.6683</XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.3" />
+  </XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id="P-52542d19-e73a-446f-bd6f-f7aefffda15c" name="CaseComplete - Jogo" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Actor xmi.id="A-77903478-4654-4c1e-b343-ce349d667dc0" name="Usuário" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false" />
+        <UML:Actor xmi.id="A-73281e99-62ef-4dd0-9377-6fb15fdcaa81" name="Administrador" visibility="public" isSpecification="false" isRoot="false" isLeaf="false" isAbstract="false" />
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:TaggedValue xmi.id="TV1" tag="REQ-1" value="Requisito 01" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV2" tag="REQ-9" value="Requisito 09" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV3" tag="REQ-13" value="Requisito 13" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV4" tag="REQ-15" value="Requisito 15" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV5" tag="REQ-5" value="Requisito 05" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV6" tag="REQ-7" value="Requisito 07" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV7" tag="REQ-8" value="Requisito 08" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV8" tag="REQ-11" value="Requisito 11" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV9" tag="REQ-14" value="Requisito 14" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV10" tag="REQ-12" value="Requisito 12" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV11" tag="REQ-3" value="Requisito 03" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV12" tag="REQ-4" value="Requisito 04" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV13" tag="REQ-6" value="Requisito 06" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV14" tag="REQ-10" value="Requisito 10" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV15" tag="REQ-2" value="Requisito 02" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV16" tag="REQ-16" value="Requisito não funcional 01" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV17" tag="REQ-17" value="Requisito não funcional 02" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV18" tag="REQ-18" value="Requisito não funcional 03" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV19" tag="REQ-19" value="Requisito não funcional 04" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV20" tag="REQ-20" value="Requisito não funcional 05" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV21" tag="REQ-21" value="Requisito não funcional 06" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV22" tag="RelatedDocument-1" value="CaseComplete - Jogo_vision.docx" modelElement="P-52542d19-e73a-446f-bd6f-f7aefffda15c" />
+    <UML:TaggedValue xmi.id="TV23" tag="ID" value="A-1" modelElement="A-77903478-4654-4c1e-b343-ce349d667dc0" />
+    <UML:TaggedValue xmi.id="TV24" tag="Goal-1" value="Cadastrar no sistema (S-1)" modelElement="A-77903478-4654-4c1e-b343-ce349d667dc0" />
+    <UML:TaggedValue xmi.id="TV25" tag="Goal-2" value="Jogar (S-2)" modelElement="A-77903478-4654-4c1e-b343-ce349d667dc0" />
+    <UML:TaggedValue xmi.id="TV26" tag="Goal-3" value="Visualizar o Rank (S-3)" modelElement="A-77903478-4654-4c1e-b343-ce349d667dc0" />
+    <UML:TaggedValue xmi.id="TV27" tag="RationalRose:externalURL" value="cc://C:\Users\Iago Fabiano\Desktop\Jogo Engenharia de Software\EngsoftG7\CaseComplete - Jogo\CaseComplete - Jogo.ucd?A-1" modelElement="A-77903478-4654-4c1e-b343-ce349d667dc0" />
+    <UML:TaggedValue xmi.id="TV28" tag="ID" value="A-2" modelElement="A-73281e99-62ef-4dd0-9377-6fb15fdcaa81" />
+    <UML:TaggedValue xmi.id="TV29" tag="Goal-1" value="Cadastrar/Editar/Remover Pergunta (S-4)" modelElement="A-73281e99-62ef-4dd0-9377-6fb15fdcaa81" />
+    <UML:TaggedValue xmi.id="TV30" tag="Goal-2" value="Cadastrar/Editar/Remover Tema (S-5)" modelElement="A-73281e99-62ef-4dd0-9377-6fb15fdcaa81" />
+    <UML:TaggedValue xmi.id="TV31" tag="RationalRose:externalURL" value="cc://C:\Users\Iago Fabiano\Desktop\Jogo Engenharia de Software\EngsoftG7\CaseComplete - Jogo\CaseComplete - Jogo.ucd?A-2" modelElement="A-73281e99-62ef-4dd0-9377-6fb15fdcaa81" />
+  </XMI.content>
+</XMI>

@@ -28,7 +28,7 @@
     <Sequence>0</Sequence>
     <Complexity />
     <DateAdded>2018-04-24T02:45:40.6227087-03:00</DateAdded>
-    <DateModified>2018-04-24T10:34:02.5103296-03:00</DateModified>
+    <DateModified>2018-04-24T10:48:37.2839929-03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-73281e99-62ef-4dd0-9377-6fb15fdcaa81</UniqueID>
@@ -37,8 +37,53 @@
     <Name>Administrador</Name>
     <Sequence>1</Sequence>
     <DateAdded>2018-04-24T10:11:12.8070264-03:00</DateAdded>
-    <DateModified>2018-04-24T10:17:40.529644-03:00</DateModified>
+    <DateModified>2018-04-24T10:48:37.2960562-03:00</DateModified>
   </Actor>
+  <Story>
+    <UniqueID>S-e12fbca6-679e-4412-ad44-a97224c0aa4a</UniqueID>
+    <UserID>S-1</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Cadastrar no sistema</Name>
+    <Sequence>0</Sequence>
+    <DateAdded>2018-04-24T10:48:37.2408978-03:00</DateAdded>
+    <DateModified>2018-04-24T10:48:37.2469209-03:00</DateModified>
+  </Story>
+  <Story>
+    <UniqueID>S-f7ed1af5-ab7d-447b-ad2c-fbae555a3342</UniqueID>
+    <UserID>S-2</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Jogar</Name>
+    <Sequence>1</Sequence>
+    <DateAdded>2018-04-24T10:48:37.2699811-03:00</DateAdded>
+    <DateModified>2018-04-24T10:48:37.2699811-03:00</DateModified>
+  </Story>
+  <Story>
+    <UniqueID>S-542f5515-c4f1-458e-b602-af77e42063d6</UniqueID>
+    <UserID>S-3</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Visualizar o Rank</Name>
+    <Sequence>2</Sequence>
+    <DateAdded>2018-04-24T10:48:37.2779769-03:00</DateAdded>
+    <DateModified>2018-04-24T10:48:37.278979-03:00</DateModified>
+  </Story>
+  <Story>
+    <UniqueID>S-33060dd6-752c-40fc-96ef-1dde2dd926fd</UniqueID>
+    <UserID>S-4</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Cadastrar/Editar/Remover Pergunta</Name>
+    <Sequence>3</Sequence>
+    <DateAdded>2018-04-24T10:48:37.2839929-03:00</DateAdded>
+    <DateModified>2018-04-24T10:48:37.2850032-03:00</DateModified>
+  </Story>
+  <Story>
+    <UniqueID>S-a920160b-a6df-496b-8ef0-31f949be7e71</UniqueID>
+    <UserID>S-5</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Cadastrar/Editar/Remover Tema</Name>
+    <Sequence>4</Sequence>
+    <DateAdded>2018-04-24T10:48:37.2910374-03:00</DateAdded>
+    <DateModified>2018-04-24T10:48:37.2910374-03:00</DateModified>
+  </Story>
   <Diagram>
     <UniqueID>D-c70fd3b4-8c5f-4eb9-946f-5062e32925fd</UniqueID>
     <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
@@ -526,9 +571,10 @@
   <Goal>
     <UniqueID>G-4b3d568b-2ce1-49c6-be81-ed576fe90d42</UniqueID>
     <ParentID>A-77903478-4654-4c1e-b343-ce349d667dc0</ParentID>
-    <Description>Cadastrar no sistema</Description>
+    <Description>Cadastrar no sistema (S-1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Cadastrar no sistema\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Cadastrar no sistema (\cf1\ul S-1\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -536,10 +582,10 @@
   <Goal>
     <UniqueID>G-bad8f86d-63eb-4569-8497-c2d791818750</UniqueID>
     <ParentID>A-77903478-4654-4c1e-b343-ce349d667dc0</ParentID>
-    <Description>Jogar</Description>
+    <Description>Jogar (S-2)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Jogar\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Jogar (\cf2\ul S-2\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -547,10 +593,10 @@
   <Goal>
     <UniqueID>G-87e16fbf-1050-4bb7-b22f-d5e0ded03084</UniqueID>
     <ParentID>A-77903478-4654-4c1e-b343-ce349d667dc0</ParentID>
-    <Description>Visualizar o Rank</Description>
+    <Description>Visualizar o Rank (S-3)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Visualizar o Rank\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Visualizar o Rank (\cf2\ul S-3\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -558,10 +604,10 @@
   <Goal>
     <UniqueID>G-6f804214-1822-49b6-aad7-c4464dd4a84a</UniqueID>
     <ParentID>A-73281e99-62ef-4dd0-9377-6fb15fdcaa81</ParentID>
-    <Description>Cadastrar/Editar/Remover Pergunta</Description>
+    <Description>Cadastrar/Editar/Remover Pergunta (S-4)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Cadastrar/Editar/Remover Pergunta\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Cadastrar/Editar/Remover Pergunta (\cf2\ul S-4\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -569,10 +615,10 @@
   <Goal>
     <UniqueID>G-84a6a98f-34d3-4047-9951-f4c558f88c8a</UniqueID>
     <ParentID>A-73281e99-62ef-4dd0-9377-6fb15fdcaa81</ParentID>
-    <Description>Cadastrar/Editar/Remover Tema</Description>
+    <Description>Cadastrar/Editar/Remover Tema (S-5)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Cadastrar/Editar/Remover Tema\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Cadastrar/Editar/Remover Tema (\cf2\ul S-5\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -600,7 +646,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>S-</DefaultPrefix>
-    <NextValue>1</NextValue>
+    <NextValue>6</NextValue>
   </UserID>
   <BuiltInField>
     <UniqueID>1</UniqueID>
