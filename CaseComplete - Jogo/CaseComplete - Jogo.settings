@@ -3,7 +3,7 @@
   <Version>2</Version>
   <PackageId>P-52542d19-e73a-446f-bd6f-f7aefffda15c</PackageId>
   <ShowDescendants>true</ShowDescendants>
-  <ProjectOpenedTabName>pgUseCases</ProjectOpenedTabName>
+  <ProjectOpenedTabName>pgRequirements</ProjectOpenedTabName>
   <Sorting>
     <UseCaseViewSortColumns>
       <string>Name</string>
@@ -95,6 +95,6 @@
   <ExpandedNodes>
     <string>CaseComplete - Jogo</string>
   </ExpandedNodes>
-  <SelectedNode>CaseComplete - Jogo\CaseComplete - Jogo_Context</SelectedNode>
+  <SelectedNode>CaseComplete - Jogo\Administrador</SelectedNode>
   <Flags />
 </ModelSettings>

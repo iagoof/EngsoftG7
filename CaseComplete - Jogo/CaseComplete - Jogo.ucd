@@ -19,17 +19,16 @@
     <UniqueID>A-77903478-4654-4c1e-b343-ce349d667dc0</UniqueID>
     <UserID>A-1</UserID>
     <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
-    <Name>Jogador</Name>
-    <Description>Jogador para o jogo</Description>
+    <Name>Usuário</Name>
+    <Description />
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Jogador\cf2\ulnone  para o jogo\cf0\par
+\viewkind4\uc1\pard\f0\fs20\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
     <Complexity />
     <DateAdded>2018-04-24T02:45:40.6227087-03:00</DateAdded>
-    <DateModified>2018-04-24T10:16:14.4155384-03:00</DateModified>
+    <DateModified>2018-04-24T10:34:02.5103296-03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-73281e99-62ef-4dd0-9377-6fb15fdcaa81</UniqueID>
@@ -52,12 +51,476 @@
     <UniqueID>REQ-26d170fe-cc2a-4b55-99e6-37beca485390</UniqueID>
     <UserID>REQ-1</UserID>
     <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
-    <Name>New Requirement</Name>
+    <Name>Requisito 01</Name>
+    <Description>O sistema deve permitir o cadastro de novo usuário . Para a criação de um novo usuário é necessário um login, e-mail e senha.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir o cadastro de novo \cf2\ul usu\'e1rio\cf1\ulnone  . Para a cria\'e7\'e3o de um novo \cf2\ul usu\'e1rio\cf1\ulnone  \'e9 necess\'e1rio um login, e-mail e senha.\par
+\par
+}
+</RichDescription>
     <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:34:31.9334248-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-63af6241-782f-45fd-88a4-4fc7880347fc</UniqueID>
+    <UserID>REQ-2</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 02</Name>
+    <Description>O sistema deve permitir ao usuário utilizar um nome temporário, caso ele não queira se cadastrar.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  utilizar um nome tempor\'e1rio, caso ele n\'e3o queira se cadastrar.\par
+\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:34:50.7523586-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-03e0b3ea-ff83-47d9-a659-15f35694d504</UniqueID>
+    <UserID>REQ-3</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 03</Name>
+    <Description>O sistema deve permitir ao usuário escolher o modo de jogo.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  escolher o modo de jogo.\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:35:03.7325923-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c1611f18-3cd5-4386-b1c8-0970851df1d0</UniqueID>
+    <UserID>REQ-4</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 04</Name>
+    <Description>O sistema deve permitir ao usuário escolher qual o tópico das perguntas.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  escolher qual o t\'f3pico das perguntas.\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:35:13.9163414-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-18a0aec0-d47d-4de0-ae2c-a49818774066</UniqueID>
+    <UserID>REQ-5</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 05</Name>
+    <Description>O sistema deve permitir ao usuário escolher o nível de dificuldade das perguntas.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  escolher o n\'edvel de dificuldade das perguntas.\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:35:26.1351998-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-35623b7f-197e-4f36-b453-21705de53214</UniqueID>
+    <UserID>REQ-6</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 06</Name>
+    <Description>O sistema deve pontuar o usuário com base em suas respostas corretas.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve pontuar o \cf2\ul usu\'e1rio\cf1\ulnone  com base em suas respostas corretas.\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:35:37.0606144-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-814ff6bc-13fe-4098-9ef4-72e200c903f9</UniqueID>
+    <UserID>REQ-7</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 07</Name>
+    <Description>O sistema deve permitir ao usuário visualização de um ranking com as maiores pontuações.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  visualiza\'e7\'e3o de um ranking com as maiores pontua\'e7\'f5es.\par
+\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:35:51.7527406-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cd2c5054-b2d0-4a73-8471-f6f176ecfef8</UniqueID>
+    <UserID>REQ-8</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 08</Name>
+    <Description>O sistema deve permitir ao administrador criar, editar e remover perguntas.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul administrador\cf1\ulnone  criar, editar e remover perguntas.\par
+\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:33:03.8222524-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3bded00f-d571-4351-8597-d6d7b25a611e</UniqueID>
+    <UserID>REQ-9</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 09</Name>
+    <Description>O sistema deve permitir ao administrador criar, editar e remover tópicos de perguntas.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul administrador\cf1\ulnone  criar, editar e remover t\'f3picos de perguntas.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:33:13.760075-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a1c88ecf-0682-45dd-a4d7-c4bab85b6aee</UniqueID>
+    <UserID>REQ-10</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 10</Name>
+    <Description>O sistema deve ter um sistema de recompensas para o usuário.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve ter um sistema de recompensas para o \cf2\ul usu\'e1rio\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:36:15.2440725-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-46068908-04ec-4093-ac89-e86ac59e3a8a</UniqueID>
+    <UserID>REQ-11</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 11</Name>
+    <Description>O sistema deve permitir ao usuário habilitar e desabilitar o som do jogo.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  habilitar e desabilitar o som do jogo.\par
+\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:36:21.3766076-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-aa1aaff7-6ca2-4118-8ff1-bff6478791ca</UniqueID>
+    <UserID>REQ-12</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 12</Name>
+    <Description>O sistema deve permitir ao usuário compartilhar sua pontuação com os amigos.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  compartilhar sua pontua\'e7\'e3o com os amigos.\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:36:27.7334044-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-749a4075-66da-4e57-8150-deac956f05be</UniqueID>
+    <UserID>REQ-13</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 13</Name>
+    <Description>O sistema deve apresentar um tutorial para novos jogadores.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve apresentar um tutorial para novos jogadores.\par
+\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:36:37.3066566-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-613d56cf-98ff-4ee9-ac9e-a0b5bd2e5ff2</UniqueID>
+    <UserID>REQ-14</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 14</Name>
+    <Description>O sistema deve requerer conexão com a internet para funcionar.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve requerer conex\'e3o com a internet para funcionar.\par
+\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:36:44.8772885-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-ecec5fab-e61d-41b7-9a2e-b4e187d35304</UniqueID>
+    <UserID>REQ-15</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito 15</Name>
+    <Description>O sistema deve permitir ao usuário o cancelamento de sua conta.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve permitir ao \cf2\ul usu\'e1rio\cf1\ulnone  o cancelamento de sua conta.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
+    <DateModified>2018-04-24T10:37:00.0608965-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5bd4d2d7-6af7-43d1-b8d8-e6b083eaaed1</UniqueID>
+    <UserID>REQ-16</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito não funcional 01</Name>
+    <Description>O sistema deve possuir um banco de dados para armazenar os usuários e suas pontuações</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve possuir um banco de dados para armazenar os \cf2\ul usu\'e1rios\cf1\ulnone  e suas pontua\'e7\'f5es\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
     <Type>Non-functional</Type>
     <Priority>1</Priority>
-    <DateAdded>2018-04-24T10:18:46.2451195-03:00</DateAdded>
-    <DateModified>2018-04-24T10:18:46.3231851-03:00</DateModified>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:37:00.0608965-03:00</DateAdded>
+    <DateModified>2018-04-24T10:37:44.3418527-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-248ba270-77f4-41f3-a2ca-192d8a681a10</UniqueID>
+    <UserID>REQ-17</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito não funcional 02</Name>
+    <Description>O sistema deve apresentar o recurso de ajuda on-line sensível ao contexto de uso.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve apresentar o recurso de ajuda on-line sens\'edvel ao contexto de uso.\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:37:00.0608965-03:00</DateAdded>
+    <DateModified>2018-04-24T10:38:47.3264722-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-682f5deb-19cb-4c7c-9846-256f967deb97</UniqueID>
+    <UserID>REQ-18</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito não funcional 03</Name>
+    <Description>O sistema deve manter encapsulado e escondido o lado administrador.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve manter encapsulado e escondido o lado \cf2\ul administrador\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:37:00.0608965-03:00</DateAdded>
+    <DateModified>2018-04-24T10:39:31.5162134-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-96348e58-acf9-4c8b-9e87-1f6366bba577</UniqueID>
+    <UserID>REQ-19</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito não funcional 04</Name>
+    <Description>O sistema deve ser compatível com os navegadores mais utilizados atualmente.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve ser compat\'edvel com os navegadores mais utilizados atualmente.\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:37:00.0608965-03:00</DateAdded>
+    <DateModified>2018-04-24T10:39:37.4944761-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3758ac1e-91e0-41c4-8c45-0f4079db9e62</UniqueID>
+    <UserID>REQ-20</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito não funcional 05</Name>
+    <Description>O sistema deve ser totalmente em português.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve ser totalmente em portugu\'eas.\par
+}
+</RichDescription>
+    <Sequence>19</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:37:00.0608965-03:00</DateAdded>
+    <DateModified>2018-04-24T10:39:43.2945168-03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-38885095-2029-40ad-886e-2921eae4c823</UniqueID>
+    <UserID>REQ-21</UserID>
+    <ParentID>P-52542d19-e73a-446f-bd6f-f7aefffda15c</ParentID>
+    <Name>Requisito não funcional 06</Name>
+    <Description>O sistema deve ser seguro, protegendo as informações de seus usuários.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 O sistema deve ser seguro, protegendo as informa\'e7\'f5es de seus \cf2\ul usu\'e1rios\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2018-04-24T10:37:00.0608965-03:00</DateAdded>
+    <DateModified>2018-04-24T10:39:48.7321093-03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Goal>
@@ -129,7 +592,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
-    <NextValue>2</NextValue>
+    <NextValue>22</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>DEF-</DefaultPrefix>
